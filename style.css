@@ -1,0 +1,100 @@
+body
+{
+    background:linear-gradient(to right,silver,wheat,gold,seashell);
+    
+}
+audio
+        {
+             width:140%;
+             
+        }
+        body>img
+        {
+            width:100%;
+            opacity:0.6;
+        }
+        .player
+        {
+            margin:2%;
+            width:15%;
+            height:auto;
+            background-size: 100% 100%;
+        }
+        p
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: relative;
+            left:30%;
+            font-size: 195%;   
+        }
+        .cont
+        {
+            position: absolute;
+            top:26%;
+            left:35%;
+            width:25%; 
+           
+        }
+        .cont img
+        {
+            width:140%;
+            height:302px;
+        }
+        .hidden
+        {
+            display:none;
+        }
+        #b
+        {
+            position: absolute;
+            top:92%;
+            left:46%;
+            height:5vh;
+            border-radius: 7px;
+        }
+        #b>b
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 130%;
+        }
+
+        strong
+        {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: navy;
+            font-weight: bolder;
+        }
+        h1
+        {
+            font-size: 310%;
+            position: relative;
+            left:37%;
+            font-family: cursive;
+            color: royalblue;
+        }
+        #prev
+        {
+            position: absolute;
+            top:50%;
+            left:15%;
+            border-radius: 7px;
+            width:7%;
+        }
+        #next
+        {
+            position: absolute;
+            top:50%;
+            right:15%;
+            border-radius: 7px;
+            width:7%;
+        }
+        #prev>b
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 115%;
+        }
+        #next>b
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 130%;
+        }
