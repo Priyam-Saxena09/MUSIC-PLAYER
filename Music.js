@@ -1,4 +1,8 @@
 var list = document.querySelectorAll("strong");
+document.querySelectorAll(".player").forEach((but) => {
+    var content = but.firstChild.textContent;
+    but.style.backgroundImage = `url("images/${but.firstChild.textContent}.jpg")`;
+})
 var song = "";
 list.forEach((li) => {
 li.addEventListener("click", (e) => {
