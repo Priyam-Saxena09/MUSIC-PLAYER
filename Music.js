@@ -15,7 +15,7 @@ li.addEventListener("click", (e) => {
         {
             document.getElementById("prev").classList.remove("hidden");
         }
-        if(song.parentNode.nextElementSibling.firstChild == null)
+        if(!song.parentNode.nextElementSibling.firstChild)
         {
             document.getElementById("next").classList.add("hidden");
         }
@@ -84,7 +84,7 @@ li.addEventListener("click", (e) => {
 
 document.querySelector("#next").addEventListener("click",() => {
     console.log(song.parentNode.nextElementSibling.nextElementSibling.firstChild);
-    if(song.parentNode.nextElementSibling.nextElementSibling.firstChild == null)
+    if(!song.parentNode.nextElementSibling.nextElementSibling.firstChild)
         {
             document.getElementById("next").classList.add("hidden");
         }
