@@ -31,7 +31,7 @@ li.addEventListener("click", (e) => {
        document.querySelector(".cont").innerHTML = `
     <img src = "images/${e.target.textContent}.jpg">
     <audio controls autoplay>
-        <source src = "musics/${e.target.textContent}.mp3" type="audio/mp3"></audio>`;
+        <source src = "Musics/${e.target.textContent}.mp3" type="audio/mp3"></audio>`;
        document.querySelector("audio").play();
        
        document.querySelector("#b").classList.remove("hidden");
@@ -73,7 +73,7 @@ li.addEventListener("click", (e) => {
        document.querySelector(".cont").innerHTML = `
     <img src = "images/${song.parentNode.previousElementSibling.firstChild.textContent}.jpg">
     <audio controls autoplay>
-        <source src = "musics/${song.parentNode.previousElementSibling.firstChild.textContent}.mp3" type="audio/mp3"></audio>`;
+        <source src = "Musics/${song.parentNode.previousElementSibling.firstChild.textContent}.mp3" type="audio/mp3"></audio>`;
        document.querySelector("audio").play();
        song = song.parentNode.previousElementSibling.firstChild;
        document.querySelector("#b").classList.remove("hidden");
@@ -98,7 +98,7 @@ document.querySelector("#next").addEventListener("click",() => {
        document.querySelector(".cont").innerHTML = `
     <img src = "images/${song.parentNode.nextElementSibling.firstChild.textContent}.jpg">
     <audio controls autoplay>
-        <source src = "musics/${song.parentNode.nextElementSibling.firstChild.textContent}.mp3" type="audio/mp3"></audio>`;
+        <source src = "Musics/${song.parentNode.nextElementSibling.firstChild.textContent}.mp3" type="audio/mp3"></audio>`;
        document.querySelector("audio").play();
        song = song.parentNode.nextElementSibling.firstChild;
        document.querySelector("#b").classList.remove("hidden");
